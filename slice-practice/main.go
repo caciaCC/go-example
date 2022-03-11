@@ -10,4 +10,5 @@ var CustomerList *[]Customer
 func main() {
 	*CustomerList = append(*CustomerList, Customer{})
 	fmt.Println(CustomerList)
+
 }
