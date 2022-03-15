@@ -56,6 +56,9 @@ func GetAttentionList(uid string) ([]int, error) {
 	return userInfo.Card.Attentions, nil
 }
 
+type Vtb struct {
+}
+
 func GetConcernedVtbs() ([]Vtb, error) {
 	var Vtbs []Vtb
 	var uidVtbMap map[string]Vtb
